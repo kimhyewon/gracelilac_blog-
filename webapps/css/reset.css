@@ -11,8 +11,8 @@ img{vertical-align:top}
 i,em,address{font-style:normal}
 label,button{cursor:pointer}
 button{margin:0;padding:0}
-a{color:#222;text-decoration:none}
-a:hover{color:#390;text-decoration:underline}
+a{color:#FFFFFF;text-decoration:none}
+a:hover{color:#FFC500;}
 button *{position:relative}
 button img{left:-3px;*left:auto}
 html:first-child select{height:20px;padding-right:6px}

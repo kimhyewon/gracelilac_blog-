@@ -19,7 +19,7 @@
 	</div>
 	<div id ="enter_section">
 		<span id="enter_icon"><img src="http://i.imgur.com/TJrbZFa.png"/></span>
-		<span id="enter_text">Enter</span>
+		<span id="enter_text"><a href="/article">Enter</a></span>
 	</div>
 
 

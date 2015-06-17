@@ -16,6 +16,16 @@ CREATE DATABASE IF NOT EXISTS `lilac_blog` DEFAULT CHARACTER SET utf8 COLLATE ut
 USE `lilac_blog` ;
 
 -- -----------------------------------------------------
+-- Table `lilac_blog`.`BLOG`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `lilac_blog`.`BLOG` ;
+
+CREATE TABLE IF NOT EXISTS `lilac_blog`.`BLOG` (
+  `URL` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`URL`))
+ENGINE = InnoDB;
+
+-- -----------------------------------------------------
 -- Table `lilac_blog`.`BOARD`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `lilac_blog`.`BOARD` ;

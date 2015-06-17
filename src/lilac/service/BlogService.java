@@ -3,8 +3,10 @@ package lilac.service;
 import java.util.List;
 
 import lilac.dao.ArticleDao;
+import lilac.dao.BlogDao;
 import lilac.dao.BoardDao;
 import lilac.model.Article;
+import lilac.model.Blog;
 import lilac.model.Board;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,11 +16,26 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @Transactional
 public class BlogService {
+//	@Autowired
+//	private BlogDao blogDao;
 	@Autowired
 	private BoardDao boardDao;
 	@Autowired
 	private ArticleDao articleDao;
-
+	
+	
+//	public Blog getBlogByUrl(String url, String userId) {
+//		Blog blog = getBlogByUrl(url);
+//		
+//		return blog;
+//	}
+//
+//	public Blog getBlogByUrl(String url) {
+//		Blog blog = blogDao.selectByUrl(url);
+//		blog.setBoards(boardDao.selectAllByUrl(blog.getUrl()));
+//		return blog;
+//	}
+	
 	public void boardDelete(Board board) {
 		int countOfArticle = boardDao.countArticles(board.getId());
 		if (countOfArticle == 0) {

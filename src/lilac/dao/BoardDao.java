@@ -30,14 +30,14 @@ public class BoardDao {
 		}
 	}
 
-//	public List<Board> selectAllByUrl(final String url) {
-//		String sql = "select * from BOARD where SHOP_URL=?";
-//		try {
-//			return jdbcTemplate.query(sql, new BeanPropertyRowMapper<Board>(Board.class), url);
-//		} catch (EmptyResultDataAccessException e) {
-//			return null;
-//		}
-//	}
+	public List<Board> selectAllByUrl(final String url) {
+		String sql = "select * from BOARD where SHOP_URL=?";
+		try {
+			return jdbcTemplate.query(sql, new BeanPropertyRowMapper<Board>(Board.class), url);
+		} catch (EmptyResultDataAccessException e) {
+			return null;
+		}
+	}
 
 	public void remove(final int boardId) {
 		String sql = "delete from BOARD where ID=?";

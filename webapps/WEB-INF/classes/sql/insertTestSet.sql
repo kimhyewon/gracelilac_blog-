@@ -3,6 +3,9 @@
 -- -----------------------------------------------------
 -- Table `jado_dev`.`USER`
 -- -----------------------------------------------------
+--insert into BLOG VALUES('testurl');
+
+
 insert into BOARD VALUES(null, 'INFO');
 
 insert into ARTICLE VALUES( null, 1, '오픈 기념 이벤트', 'content', null);

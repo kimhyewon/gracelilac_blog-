@@ -41,10 +41,27 @@
 
 #enter_text {
 	color: white;
-	font-size: 19px;
+	font-size: 20px;
 	font-weight: lighter;
 	left: 10px;
 	
+}
+
+#enter_text {
+    -webkit-animation: smallToBig 0.9s alternate infinite ease-out;
+}
+
+#enter_text:hover {
+	-webkit-animation-play-state: paused;
+}
+
+@-webkit-keyframes smallToBig{
+    from {
+        -webkit-transform: scale(0.8);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
 }
 
 /*#title_section {

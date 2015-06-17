@@ -25,7 +25,8 @@
 	</div>
 
 
-	<!-- <div id="container" style="position:relative;width:100%;height:800px;background-color:black;">
+	<!-- 
+	<div id="container" style="position:relative;width:100%;height:800px;background-color:black;">
 		<div id="title" style="position:relative; color:white;font-size:100px;z-index:1;margin-left:410px;padding-top:70px;font-weight:bold;font-style:oblique;">Grace Lilac</div>
 		<video controls autoplay
 			style=" width: 85%; margin-left: 95px; position:absolute;top:0px;left:0px;">

@@ -5,10 +5,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>main</title>
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/board.css">
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
+	<div id="right_container"></div>
 	<div id="background">
 		<img src="http://i.imgur.com/4vRRrwq.jpg" />
 	</div>
